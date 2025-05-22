@@ -95,7 +95,7 @@ Ablauf:
 4. Sofern eine Antwort gefunden wurde, beantwortet nun ein LLM die Frage der Kundschaft. Auch hier wurde erneut auf GPT-4o mini gesetzt, da es für diese Aufgabenstellung mehr als ausreicht und eine schnelle Beantwortung ermöglicht. Auch hier wurden schon einige Fragen mit Beispielantworten hinzugefügt um Few-Shot Learning zu ermöglichen.
 5. Es wird gefragt, ob die Antwort die Frage beantwortet hat, falls ja, kann die Kundschaft wählen, ob sie erneut eine Frage stellen möchte, ein Modell kaufen möchte oder eine Modellberatung braucht. Falls die Antwort die Frage nicht beantwortet hat, kann entweder die Frage erneut gestellt werden oder an einen Menschen weitergeleitet werden. 
 
-### Workflow Supportanfrage zu Mensch
+### Workflow Supportanfrage zu Mensch
 
 Dieser Workflow ist dafür da um eine Anfrage an einen Menschen weiterzuleiten, sei es eine fehlgeschlagene Termivereinbarung oder eine sehr spezifische Frage. Er ist der Back-Up Workflow, falls irgendwo der Chatbot der Kundschaft nicht mehr helfen kann. Dieser Workflow wird nicht am Start und an anderen Orten als Funktionalität vermarktet, da möglichst viele Anfragen über unseren Chatbot beantwortet werden sollen.
 Ablauf:
@@ -108,7 +108,7 @@ Ablauf:
 ![Mail Menschlicher Support](Fotos/Mail_Menschlicher_Support.png)
 ![Telegram Menschlicher Support](Fotos/Telegram_Menschlicher_Support.png)
 
-## Knowledge Base auf Voiceflow
+## Knowledge Base auf Voiceflow
 
 Die Knowledge Base kennt ist der Ort, wo Informationen zu den verschiedenen Tesla Modellen gespeichert werden. Auf diese Informationen wird beim Workflow "Spezifische Frage" mit RAG zugegriffen. Alle Quellen die dort eingefügt wurden, wurden von uns auf Richtigkeit überprüft um eine hohe Antwortqualität zu gewährleisten. Es wurde zudem ein FAQ hinzugefügt um häufige generelle Fragen beantworten zu können. Für die Knowledge Base wurde bewusst auf GPT-4o gesetzt um Fragen richtig und vollständig beantworten zu können, bzw. die richtigen Informationen zu finden.
 
