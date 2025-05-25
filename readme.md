@@ -2,7 +2,7 @@
 ## Ideensammlung
 Wir wollten von Beginn an einen Chatbot bauen, der einen realen Nutzen hat und ein Thema wählen, das uns alle interessiert und auch so gezielt unser Wissen einsetzen können. Schnell kam die Idee auf einen Chatbot bezüglich Autos zu bauen, insbesondere mit Fokus auf die Modellberatung. Wir wollten es Kunden erleichtern ein passendes Auto zu finden, dies über einen Chatbot, der nicht nur vordefinierte Antworten hat, sondern auch wirklich in der Praxis genutzt werden kann. 
 
-Usprünglich begannen wir eine Grundlage mit Personas und möglichen Dialogen für die Automarke Audi zu gestalten. Relativ schnell wurde uns allerdings klar, dass es schwierig werden könnte die gesamte Anzahl von Modellen und Varianten die Audi anbietet abzudecken ohne dass die Qualität darunter leidet. 
+Ursprünglich begannen wir eine Grundlage mit Personas und möglichen Dialogen für die Automarke Audi zu gestalten. Relativ schnell wurde uns allerdings klar, dass es schwierig werden könnte die gesamte Anzahl von Modellen und Varianten die Audi anbietet abzudecken ohne dass die Qualität darunter leidet. 
 
 Deshalb entschieden wir uns dazu, nochmals neu zu beginnen und eine andere Marke zu suchen. Relativ schnell entschieden wir uns für Tesla, da die Modellvielfalt auf 4 Modelle beschränkt ist und wir noch keinen Chatbot auf der Website finden konnten, wo wirklich mit einem LLM etc. kommuniziert werden konnte, es gibt nur einen Chat, wo man direkt mit einem echten Menschen verbunden wird.
 
@@ -33,11 +33,11 @@ Insgesamt gibt es 6 Workflows, die wir erstellt haben:
 ### Workflow Start
 Dieser Workflow ist bewusst sehr klein gehalten, er soll den Kunden zeigen, was der Chatbot kann. Bei der Nutzung dieses Workflows kann einfach direkt in das Fenster geschrieben werden, was man tun möchte und man wird mit dem entsprechenden Intent weitergeleitet, alternativ kann von den Buttons gewählt werden, was man tun möchte um weitergeleitet zu werden. 
 
-Wir haben uns hier bewusst dagegen entschieden nur auf eine Textantwort des Kunden zu setzten um mit den Buttons auch zu zeigen, was der Bot alles kann. 
+Wir haben uns hier bewusst dagegen entschieden nur auf eine Textantwort des Kunden zu setzen um mit den Buttons auch zu zeigen, was der Bot alles kann. 
 
 ### Workflow Kauf
 
-Dieser Workflow ermöglicht direkt den Kauf eines Teslas mit entsprechender Ausstattung, bei Abschluss des Workflows wird eine Bestätigugnsmail versendet. 
+Dieser Workflow ermöglicht direkt den Kauf eines Teslas mit entsprechender Ausstattung, bei Abschluss des Workflows wird eine Bestätigungnsmail versendet. 
 
 Ablauf: 
 1. Selbstverständlich gibt es einen Intent, dieser ist darauf ausgelegt zu erkennen, wenn der Kunde erwähnt, dass er ein Auto kaufen möchte. 
@@ -49,7 +49,8 @@ Ein Vorteil mit dieser Lösung ist auch, dass die Kundschaft explizit nachfragen
 ![Frage zu Farben](Fotos/Frage_Farben.png)
 Ein weiterer Vorteil dieses Steps ist, dass der Workflow erst weitergeht, sobald alle Informationen zu den Farben bekannt sind, wenn der Kunde sagt "Ich weiss nicht welche Farbe" geht der Workflow nicht weiter, sondern der Bot probiert zu helfen, solange bis eine Farbe gewählt wurde. 
 5. Nach Festlegung der Farbe wird nun nach den persönlichen Angaben des Kunden gefragt. Auch hier wurden wie im 4. Schritt wieder Entities angelegt, speziell ist hier allerdings, dass es keine vordefinierten Values gibt, da Name, Telefonnummer etc. immer individuell sind. Es wurde jedoch festgelegt, was für ein Data Type erwartet wird, dies ermöglicht es dem Modell besser zu verstehen, welche Values erwartbar sind. Um eine hohe Datenqualität sicherzustellen wurden allerdings noch drei Regeln definiert:
-    - Eine E-Mail muss ein @ enthalten, jede E-Mail hat ein @, dies hilft bei der sauberen Erkennung der E-Mail
+    - Eine E-Mail muss ein „@“ ![Uploading image.png…]()
+ enthalten, jede E-Mail hat ein @, dies hilft bei der sauberen Erkennung der E-Mail
     - Der Wohnort / PLZ muss in der Schweiz sein, unser Chatbot ist auf die Schweizer Kundschaft  ausgelegt
     - Es wurde ein Maximalwert für die PLZ festgelegt, um die Datenqualität zu erhöhen
 6. Es wird gefragt ob die Angaben der Kundschaft korrekt sind, dabei werden die Entities die in Schritt 5 gesetzt wurden angezeigt. Sollten die Angaben nicht korrekt sind, so wird gefragt, welcher Teil nicht korrekt sei, dieser kann dann erneut angepasst werden.
@@ -67,7 +68,7 @@ Dieser Workflow ermöglicht es der Kundschaft ein passendes Modell zu ermitteln.
 Ablauf:
 1. Auch hier gibt es einen Intent, der prüft ob die Kundschaft irgendwo erwähnt, ob sie eine Modellberatung wünscht. 
 2. Es wird entschieden, ob die Kundschaft lieber schreiben möchte, was ihnen wichtig ist, oder ob ihnen Fragen gestellt werden sollen. 
-3. Wenn gewählt wurde, dass der Kundschaft Fragen gestellt werden sollen, wird anhand der Anzahl zu transportierenden Personen und der Wichtigkeit von Features entschieden, welches Auto zur Kundschaft passt, dieser Workflow könnte noch deutlich ausgebaut werden um genauere Vorschläge zu liefern, allerdings wurde hier darauf verzichtet um den Chatbot möglicht schnell zu gestalten. 
+3. Wenn gewählt wurde, dass der Kundschaft Fragen gestellt werden sollen, wird anhand der Anzahl zu transportierenden Personen und der Wichtigkeit von Features entschieden, welches Auto zur Kundschaft passt, dieser Workflow könnte noch deutlich ausgebaut werden um genauere Vorschläge zu liefern, allerdings wurde hier darauf verzichtet um den Chatbot möglichst schnell zu gestalten. 
 4. Wenn gewählt wurde, dass man selber beschreiben möchte, was man sucht, so kann man einfach dem Chatbot als Freitext schreiben, was einem wichtig ist, dabei analysiert ein LLM, welches Modell am besten passt, sollten die Angaben der Kundschaft für einen guten Vorschlag nicht reichen, so wird die Kundschaft aufgefordert nochmals detaillierter die Vorstellungen mitzuteilen. Hier wurde bewusst auf ein kleines Reasoning Modell, o3 mini von OpenAI gesetzt, damit das Modell die Empfehlung kritisch hinterfragen und sinnvoll herleiten kann. Auf die Anwendung eines grossen LLM wurde verzichtet, da in der Regel die Beschreibung der Kunden sehr kurz ausfällt und dies keine komplexe Aufgabe ist. Zusätzlich wurde noch einige Beispiele für das Modell hinzugefügt um Few-Shot Learning zu nutzen bzw. um bessere / konsistente Antworten zu ermöglichen. Es gibt 6 If Bedingungen nach der Antwort durch das Modell, diese prüfen, welches Modell das LLM ermittelt hat, dieses soll gemäss den Instruktionen immer explizit das Modell erwähnen. Sollte es weder erwähnen, dass es zu wenig Informationen hat, noch dass ein passendes Modell gefunden wurde, so wird die Kundschaft aufgefordert erneut zu beschreiben, was ihnen wichtig ist. Dies wurde vorgenommen um alle möglichen Outputs zu modellieren.
 5. Nachdem entweder durch die Fragen oder das LLM ein passendes Modell ermittelt wurde sieht die Kundschaft ein Bild mit dem passenden Modell und erhält gleich weitere Möglichkeiten um Fragen zu diesem Modell zu stellen, eine Probefahrt zu vereinbaren oder das Modell zu kaufen. Bei einer Wahl wird die Kundschaft auch gleich zum entsprechenden Workflow weitergeleitet. So möchten wir einen möglichst flüssigen Dialog ermöglichen und das volle Potenzial des Chatbots ausschöpfen und im Optimfall sogar die Anzahl Verkäufe erhöhen.
 ![Card Beratung](Fotos/Card_Beratung.png)
