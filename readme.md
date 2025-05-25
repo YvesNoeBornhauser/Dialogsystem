@@ -110,7 +110,7 @@ Ablauf:
 
 ## Knowledge Base auf Voiceflow
 
-Die Knowledge Base kennt ist der Ort, wo Informationen zu den verschiedenen Tesla Modellen gespeichert werden. Auf diese Informationen wird beim Workflow "Spezifische Frage" mit RAG zugegriffen. Alle Quellen die dort eingefügt wurden, wurden von uns auf Richtigkeit überprüft um eine hohe Antwortqualität zu gewährleisten. Es wurde zudem ein FAQ hinzugefügt um häufige generelle Fragen beantworten zu können. Für die Knowledge Base wurde bewusst auf GPT-4o gesetzt um Fragen richtig und vollständig beantworten zu können, bzw. die richtigen Informationen zu finden.
+Die Knowledge Base ist der Ort, wo Informationen zu den verschiedenen Tesla Modellen gespeichert werden. Auf diese Informationen wird beim Workflow "Spezifische Frage" mit RAG zugegriffen. Alle Quellen die dort eingefügt wurden, wurden von uns auf Richtigkeit überprüft um eine hohe Antwortqualität zu gewährleisten. Es wurde zudem ein FAQ hinzugefügt um häufige generelle Fragen beantworten zu können. Für die Knowledge Base wurde bewusst auf GPT-4o gesetzt um Fragen richtig und vollständig beantworten zu können, bzw. die richtigen Informationen zu finden.
 
 ## Transparenzhinweise
 
