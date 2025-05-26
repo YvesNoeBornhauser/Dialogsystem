@@ -84,6 +84,8 @@ Ablauf:
 5. Zuletzt wird die Kundschaft gefragt, ob sie einen Termin vereinbaren konnten, sollte dies so sein, ist der Workflow beendet, falls nicht, können sie wählen, ob sie entweder an einen Menschen weitergeleitet werden möchte oder ob sie es erneut probieren möchten.
 
 In diesem Workflow wurde bewusst darauf verzichtet eine Bestätigungsmail von Tesla zu versenden, da eine Mail von Calendly versendet wird, sowohl an die Kundschaft, als auch an Tesla selber.
+Am Ende werden zusätzlich die Kundendaten in einem Google Sheets gespeichert, sodass Tesla die Daten bereits hat, sollte sich ein Kunde entscheiden, dort dann ein Konto zu eröffnen.
+![Google Sheets Kundendaten](Fotos/Google-Sheets-Kundendaten-Termin.png)
 
 ### Workflow Spezifische Frage
 
