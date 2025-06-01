@@ -49,7 +49,7 @@ Ein Vorteil mit dieser Lösung ist auch, dass die Kundschaft explizit nachfragen
 ![Frage zu Farben](Fotos/Frage_Farben.png)
 Ein weiterer Vorteil dieses Steps ist, dass der Workflow erst weitergeht, sobald alle Informationen zu den Farben bekannt sind, wenn der Kunde sagt "Ich weiss nicht welche Farbe" geht der Workflow nicht weiter, sondern der Bot probiert zu helfen, solange bis eine Farbe gewählt wurde. 
 5. Nach Festlegung der Farbe wird nun nach den persönlichen Angaben des Kunden gefragt. Auch hier wurden wie im 4. Schritt wieder Entities angelegt, speziell ist hier allerdings, dass es keine vordefinierten Values gibt, da Name, Telefonnummer etc. immer individuell sind. Es wurde jedoch festgelegt, was für ein Data Type erwartet wird, dies ermöglicht es dem Modell besser zu verstehen, welche Values erwartbar sind. Um eine hohe Datenqualität sicherzustellen wurden allerdings noch drei Regeln definiert:
-    - Eine E-Mail muss ein „@“ enthalten, jede E-Mail hat ein @, dies hilft bei der sauberen Erkennung der E-Mail
+    - Eine E-Mail muss ein „@“ enthalten, jede E-Mail hat ein „@“, dies hilft bei der sauberen Erkennung der E-Mail
     - Der Wohnort / PLZ muss in der Schweiz sein, unser Chatbot ist auf die Schweizer Kundschaft  ausgelegt
     - Es wurde ein Maximalwert für die PLZ festgelegt, um die Datenqualität zu erhöhen
 6. Es wird gefragt ob die Angaben der Kundschaft korrekt sind, dabei werden die Entities die in Schritt 5 gesetzt wurden angezeigt. Sollten die Angaben nicht korrekt sind, so wird gefragt, welcher Teil nicht korrekt sei, dieser kann dann erneut angepasst werden.
