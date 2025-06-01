@@ -1,0 +1,8 @@
+1. Conversational_Design_Canvas.pdf - Contains all the Personas, sample dialogues, bot Architecture etc. - should also be accessible by this link: https://miro.com/app/board/uXjVITTl4mE=/?share_link_id=414738351927
+2. Tessa_Voiceflow_Backup.vf - contains the voiceflow Workflows etc. however Knowledge base Sources etc. are not transferred automaticsally - rather use this link to access it: https://creator.voiceflow.com/project/67d832de2ec8522960db03a4/canvas/63067e968cbdb692c97b063a
+3. chatbot_testseite.html - should load a "Website" where you can test the Chatbot, this functions as a Backup to the nicer Website where the bot was deployed Transparency: This html file was created with the help of Chatgpt, as we are not familiar with html in Detail
+4. Nice_design_chatbot.txt - should contain the link for a nice Version where the Chatbot was deployed Transparency: The whole Website design was created with canva AI, link: https://tessastudentproject.my.canva.site/chatbot-integration-in-tesla-lookalike-website
+5. readme.md - contains our documentation of the Bot
+6. Make_Artefacts Folder - contains JSON files of all 3 make.com Scenarios, as well as a screenshot of each one
+
+
