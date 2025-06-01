@@ -121,3 +121,9 @@ Die Knowledge Base ist der Ort, wo Informationen zu den verschiedenen Tesla Mode
 - Für die Erstellung der HTML Mails wurde Chatgpt zur Unterstützung genutzt, da wir uns damit leider nicht sehr gut auskennen
 - Für die Erstellung der Canva Website und der HTML Datei wurde Chatgpt genutzt
 
+### Team
+
+- Yves Bornhauser
+- Haris Salii
+- Elia Geromin
+
