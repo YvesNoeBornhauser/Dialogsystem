@@ -333,7 +333,7 @@
               "slots": []
             }
           ],
-          "noteID": "zitf60ox1",
+          "noteID": "dl130i0k2s",
           "description": "Der Kunde nach Support durch einen Menschen fragt"
         },
         {
@@ -418,7 +418,7 @@
               "slots": []
             }
           ],
-          "noteID": "zjtf70o37",
+          "noteID": "dl130j0k2u",
           "description": "Der Kunde möchte eine Beratung haben, welches Auto zu ihm passt. "
         },
         {
@@ -503,7 +503,7 @@
               "slots": []
             }
           ],
-          "noteID": "zjtf80otc",
+          "noteID": "dl130k0ks9",
           "description": "Der Kunde sagt, dass er einen Tesla kaufen möchte, sonst nicht. "
         },
         {
@@ -552,7 +552,7 @@
               "slots": []
             }
           ],
-          "noteID": "zjtf90of8",
+          "noteID": "dl130l0k1b",
           "description": "Der Kunde möchte einen Tesla probefahren"
         },
         {
@@ -605,7 +605,7 @@
               "slots": []
             }
           ],
-          "noteID": "zjtfa0ok7",
+          "noteID": "dl130m0ksq",
           "description": "Der Kunde stellt eine spezifische Fragen zu einem Modell. "
         },
         {
@@ -714,7 +714,7 @@
                 "slots": []
               }
             ],
-            "noteID": "zitf60ox1",
+            "noteID": "dl130i0k2s",
             "description": "Der Kunde nach Support durch einen Menschen fragt"
           },
           {
@@ -799,7 +799,7 @@
                 "slots": []
               }
             ],
-            "noteID": "zjtf70o37",
+            "noteID": "dl130j0k2u",
             "description": "Der Kunde möchte eine Beratung haben, welches Auto zu ihm passt. "
           },
           {
@@ -880,7 +880,7 @@
                 "slots": []
               }
             ],
-            "noteID": "zjtf80otc",
+            "noteID": "dl130k0ks9",
             "description": "Der Kunde sagt, dass er einen Tesla kaufen möchte, sonst nicht. "
           },
           {
@@ -929,7 +929,7 @@
                 "slots": []
               }
             ],
-            "noteID": "zjtf90of8",
+            "noteID": "dl130l0k1b",
             "description": "Der Kunde möchte einen Tesla probefahren"
           },
           {
@@ -982,7 +982,7 @@
                 "slots": []
               }
             ],
-            "noteID": "zjtfa0ok7",
+            "noteID": "dl130m0ksq",
             "description": "Der Kunde stellt eine spezifische Fragen zu einem Modell. "
           },
           {
@@ -3689,7 +3689,7 @@
           "disclaimer": {
             "enabled": true,
             "title": "Datenschutzhinweis",
-            "description": "Mit dem Absenden Ihrer Anfrage erklären Sie sich damit einverstanden, dass Ihre angegebenen Daten zum Zweck der Bearbeitung Ihrer Anfrage gespeichert und verarbeitet werden.\nWir verwenden Ihre E-Mail-Adresse ausschließlich zur individuellen Kontaktaufnahme – keine Newsletter, keine Werbung.\nEine Weitergabe Ihrer Daten an Dritte erfolgt nicht.",
+            "description": "Mit dem Absenden Ihrer Anfrage erklären Sie sich damit einverstanden, dass Ihre angegebenen Daten zum Zweck der Bearbeitung Ihrer Anfrage gespeichert und verarbeitet werden.\nWir verwenden Ihre E-Mail-Adresse ausschliesslich zur individuellen Kontaktaufnahme – keine Newsletter, keine Werbung.\nEine Weitergabe Ihrer Daten an Dritte erfolgt nicht.",
             "primaryButtonText": "Das ist in Ordnung für mich",
             "secondaryButtonText": "",
             "secondaryButtonURL": ""
@@ -6976,7 +6976,7 @@
       "modelID": "682b34829d26cd7ecfd949cd"
     },
     "_id": "67d832de2ec8522960db03a4",
-    "updatedAt": "2025-06-01T11:52:11.263Z",
+    "updatedAt": "2025-06-02T10:19:42.729Z",
     "publishedAt": "2025-03-17T14:34:06.856Z",
     "domains": [
       {
@@ -9053,6 +9053,98 @@
           "coords": [
             0,
             0
+          ]
+        },
+        "683d8d78ef02a82577125db2": {
+          "type": "markup_text",
+          "data": {
+            "scale": 1,
+            "rotate": 0,
+            "content": [
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": "4o searches the knowledge base, if there "
+                  }
+                ]
+              },
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": "is any information which helps towards answering the question"
+                  }
+                ]
+              }
+            ],
+            "overrideWidth": 617,
+            "backgroundColor": {
+              "r": 197,
+              "g": 231,
+              "b": 246,
+              "a": 1
+            },
+            "name": "Block"
+          },
+          "nodeID": "683d8d78ef02a82577125db2",
+          "coords": [
+            782.6902106187437,
+            -247.26601994376517
+          ]
+        },
+        "683d8d9bef02a82577125db5": {
+          "type": "markup_text",
+          "data": {
+            "scale": 1,
+            "rotate": 0,
+            "content": [
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": "4o-mini then takes the information from the kb"
+                  }
+                ]
+              },
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": "and answers the question from the user, if no "
+                  }
+                ]
+              },
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": "information was found in the kb, the user "
+                  }
+                ]
+              },
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": "can try again or be redirected to a human"
+                  }
+                ]
+              }
+            ],
+            "overrideWidth": 467,
+            "backgroundColor": {
+              "r": 197,
+              "g": 231,
+              "b": 246,
+              "a": 1
+            },
+            "name": "Block"
+          },
+          "nodeID": "683d8d9bef02a82577125db5",
+          "coords": [
+            1515.9184771939724,
+            -275.5954527137078
           ]
         }
       },
@@ -11599,7 +11691,8 @@
             "steps": [
               "67f76721fde8373142ce2a92",
               "67f76764fde8373142ce2a9b"
-            ]
+            ],
+            "color": ""
           },
           "nodeID": "67f76721fde8373142ce2a94",
           "coords": [
@@ -14165,6 +14258,145 @@
             }
           },
           "nodeID": "681f0c2721f990c96a0ed45c"
+        },
+        "683d8b4def02a82577125b5a": {
+          "type": "markup_text",
+          "data": {
+            "scale": 1,
+            "rotate": 0,
+            "content": [
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": "it is being checked if the user already had a consultation towards a model, if the variable is arleady set, the bot asks, if the customer would like to buy this model - just for double checking"
+                  }
+                ]
+              }
+            ],
+            "overrideWidth": 303,
+            "backgroundColor": {
+              "r": 197,
+              "g": 231,
+              "b": 246,
+              "a": 1
+            },
+            "name": "Block"
+          },
+          "nodeID": "683d8b4def02a82577125b5a",
+          "coords": [
+            -780.8873141991511,
+            -232.14505345597337
+          ]
+        },
+        "683d8bbcef02a82577125b60": {
+          "type": "markup_text",
+          "data": {
+            "name": "Block",
+            "scale": 1,
+            "rotate": 0,
+            "content": [
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": "LLM recommends a specific model"
+                  }
+                ]
+              }
+            ],
+            "overrideWidth": 303,
+            "backgroundColor": {
+              "r": 197,
+              "g": 231,
+              "b": 246,
+              "a": 1
+            }
+          },
+          "nodeID": "683d8bbcef02a82577125b60",
+          "coords": [
+            -349.2833094482665,
+            1142.5045989616524
+          ]
+        },
+        "683d8be1ef02a82577125b62": {
+          "type": "markup_text",
+          "data": {
+            "scale": 1,
+            "rotate": 0,
+            "content": [
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": "All colors are created as values of entities, there are rules which colors are available for which model"
+                  }
+                ]
+              }
+            ],
+            "overrideWidth": 324,
+            "backgroundColor": {
+              "r": 197,
+              "g": 231,
+              "b": 246,
+              "a": 1
+            },
+            "name": "Block"
+          },
+          "nodeID": "683d8be1ef02a82577125b62",
+          "coords": [
+            1852.1139557485094,
+            -165.3044054614617
+          ]
+        },
+        "683d8c54ef02a82577125b65": {
+          "type": "markup_text",
+          "data": {
+            "scale": 1,
+            "rotate": 0,
+            "content": [
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": "Sends all the information to "
+                  },
+                  {
+                    "url": "make.com",
+                    "type": "link",
+                    "children": [
+                      {
+                        "text": "make.com",
+                        "color": {
+                          "r": 93,
+                          "g": 157,
+                          "b": 245,
+                          "a": 1
+                        },
+                        "underline": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": " , from there a mail ist sent to a customer and the data is saved in a spreadsheet"
+                  }
+                ]
+              }
+            ],
+            "overrideWidth": 394,
+            "backgroundColor": {
+              "r": 197,
+              "g": 231,
+              "b": 246,
+              "a": 1
+            },
+            "name": "Block"
+          },
+          "nodeID": "683d8c54ef02a82577125b65",
+          "coords": [
+            4794.433009957523,
+            26.02027345899013
+          ]
         }
       },
       "offsetX": 0,
@@ -19223,19 +19455,19 @@
               "byKey": {
                 "cm8wyu6gn07523d6xr5m4u3hq": {
                   "type": "",
-                  "target": "67fb85ecb827b92e9ba8e9fd",
+                  "target": "683d7a303af49113c60dc87f",
                   "id": "67ea77a5367fef7521841fe9",
                   "data": {}
                 },
                 "cm8wysyqk073i3d6xq74xej4y": {
                   "id": "67ea776c367fef7521841fe3",
-                  "target": "6819202690064aebf1d488f2",
+                  "target": "683d79a9f0d1353dad05f45e",
                   "type": "",
                   "data": {}
                 },
                 "cm9abj64301n43d6y0jhyicpy": {
                   "id": "67f6c97bfde8373142ce0e38",
-                  "target": "67f6c9bffde8373142ce0e4b",
+                  "target": "683d7a483af49113c60dc885",
                   "type": "",
                   "data": {}
                 }
@@ -19425,34 +19657,6 @@
             456.9615374212054
           ]
         },
-        "67f6c9bffde8373142ce0e4a": {
-          "type": "goToNode",
-          "data": {
-            "name": "",
-            "nodeID": "67f6c5d9fde8373142ce08d0",
-            "diagramID": "67f3e5ba4b59bdae787d2b25",
-            "portsV2": {
-              "byKey": {},
-              "builtIn": {},
-              "dynamic": []
-            }
-          },
-          "nodeID": "67f6c9bffde8373142ce0e4a"
-        },
-        "67f6c9bffde8373142ce0e4b": {
-          "type": "actions",
-          "data": {
-            "name": "",
-            "steps": [
-              "67f6c9bffde8373142ce0e4a"
-            ]
-          },
-          "nodeID": "67f6c9bffde8373142ce0e4b",
-          "coords": [
-            0,
-            0
-          ]
-        },
         "67f76a77fde8373142ce2f17": {
           "type": "trigger",
           "data": {
@@ -19513,34 +19717,6 @@
           "coords": [
             -99.77189210384556,
             -23.446055500701917
-          ]
-        },
-        "67fb85ecb827b92e9ba8e9fc": {
-          "type": "goToNode",
-          "data": {
-            "name": "",
-            "nodeID": "67f7960aace54362e7f8c6a3",
-            "diagramID": "67f3c84f0df030fe0a56f88d",
-            "portsV2": {
-              "byKey": {},
-              "builtIn": {},
-              "dynamic": []
-            }
-          },
-          "nodeID": "67fb85ecb827b92e9ba8e9fc"
-        },
-        "67fb85ecb827b92e9ba8e9fd": {
-          "type": "actions",
-          "data": {
-            "name": "",
-            "steps": [
-              "67fb85ecb827b92e9ba8e9fc"
-            ]
-          },
-          "nodeID": "67fb85ecb827b92e9ba8e9fd",
-          "coords": [
-            0,
-            0
           ]
         },
         "67fc1da4b827b92e9ba93162": {
@@ -19724,7 +19900,7 @@
             "name": "AB 5",
             "steps": [
               "67fc1da4b827b92e9ba93162",
-              "681924c6b0cd7fa46c7ac522"
+              "683d78b6f0d1353dad05f0ea"
             ],
             "color": "#CB627B"
           },
@@ -19748,34 +19924,6 @@
           "coords": [
             5771.0353580918345,
             984.8133252329866
-          ]
-        },
-        "67fc24d1b827b92e9ba936f0": {
-          "type": "actions",
-          "data": {
-            "name": "",
-            "steps": [
-              "67fc24d1b827b92e9ba936f8"
-            ]
-          },
-          "nodeID": "67fc24d1b827b92e9ba936f0",
-          "coords": [
-            377.6808209567662,
-            -25.40541708659657
-          ]
-        },
-        "67fc24d1b827b92e9ba936f2": {
-          "type": "actions",
-          "data": {
-            "name": "",
-            "steps": [
-              "67fc24d1b827b92e9ba936f9"
-            ]
-          },
-          "nodeID": "67fc24d1b827b92e9ba936f2",
-          "coords": [
-            377.6808209567662,
-            -25.40541708659657
           ]
         },
         "67fc24d1b827b92e9ba936f4": {
@@ -19819,19 +19967,19 @@
               "byKey": {
                 "cm8wyu6gn07523d6xr5m4u3hq": {
                   "type": "",
-                  "target": "67fc24d1b827b92e9ba936f0",
+                  "target": "683d79e53af49113c60dc60c",
                   "id": "67fc24d1b827b92e9ba936f5",
                   "data": {}
                 },
                 "cm8wysyqk073i3d6xq74xej4y": {
                   "type": "",
-                  "target": "6819203c90064aebf1d488f9",
+                  "target": "683d79d93af49113c60dc606",
                   "id": "67fc24d1b827b92e9ba936f6",
                   "data": {}
                 },
                 "cm9abj64301n43d6y0jhyicpy": {
                   "type": "",
-                  "target": "67fc24d1b827b92e9ba936f2",
+                  "target": "683d7a5f3af49113c60dc88b",
                   "id": "67fc24d1b827b92e9ba936f7",
                   "data": {}
                 }
@@ -19845,34 +19993,6 @@
             0,
             0
           ]
-        },
-        "67fc24d1b827b92e9ba936f8": {
-          "type": "goToNode",
-          "data": {
-            "name": "",
-            "nodeID": "67f7960aace54362e7f8c6a3",
-            "diagramID": "67f3c84f0df030fe0a56f88d",
-            "portsV2": {
-              "byKey": {},
-              "builtIn": {},
-              "dynamic": []
-            }
-          },
-          "nodeID": "67fc24d1b827b92e9ba936f8"
-        },
-        "67fc24d1b827b92e9ba936f9": {
-          "type": "goToNode",
-          "data": {
-            "name": "",
-            "nodeID": "67f6c5d9fde8373142ce08d0",
-            "diagramID": "67f3e5ba4b59bdae787d2b25",
-            "portsV2": {
-              "byKey": {},
-              "builtIn": {},
-              "dynamic": []
-            }
-          },
-          "nodeID": "67fc24d1b827b92e9ba936f9"
         },
         "67fc24d3b827b92e9ba9370a": {
           "type": "block",
@@ -19888,34 +20008,6 @@
           "coords": [
             5767.369721402949,
             1382.5739367145286
-          ]
-        },
-        "67fc24d3b827b92e9ba9370c": {
-          "type": "actions",
-          "data": {
-            "name": "",
-            "steps": [
-              "67fc24d3b827b92e9ba93714"
-            ]
-          },
-          "nodeID": "67fc24d3b827b92e9ba9370c",
-          "coords": [
-            337.2157046776965,
-            274.5945829134034
-          ]
-        },
-        "67fc24d3b827b92e9ba9370e": {
-          "type": "actions",
-          "data": {
-            "name": "",
-            "steps": [
-              "67fc24d3b827b92e9ba93715"
-            ]
-          },
-          "nodeID": "67fc24d3b827b92e9ba9370e",
-          "coords": [
-            337.2157046776965,
-            274.5945829134034
           ]
         },
         "67fc24d3b827b92e9ba93710": {
@@ -19959,19 +20051,19 @@
               "byKey": {
                 "cm8wyu6gn07523d6xr5m4u3hq": {
                   "type": "",
-                  "target": "67fc24d3b827b92e9ba9370c",
+                  "target": "683d7a823af49113c60dc89d",
                   "id": "67fc24d3b827b92e9ba93711",
                   "data": {}
                 },
                 "cm8wysyqk073i3d6xq74xej4y": {
                   "type": "",
-                  "target": "6819204690064aebf1d48900",
+                  "target": "683d7a6e3af49113c60dc891",
                   "id": "67fc24d3b827b92e9ba93712",
                   "data": {}
                 },
                 "cm9abj64301n43d6y0jhyicpy": {
                   "type": "",
-                  "target": "67fc24d3b827b92e9ba9370e",
+                  "target": "683d7a8d3af49113c60dc8a3",
                   "id": "67fc24d3b827b92e9ba93713",
                   "data": {}
                 }
@@ -19985,34 +20077,6 @@
             0,
             0
           ]
-        },
-        "67fc24d3b827b92e9ba93714": {
-          "type": "goToNode",
-          "data": {
-            "name": "",
-            "nodeID": "67f7960aace54362e7f8c6a3",
-            "diagramID": "67f3c84f0df030fe0a56f88d",
-            "portsV2": {
-              "byKey": {},
-              "builtIn": {},
-              "dynamic": []
-            }
-          },
-          "nodeID": "67fc24d3b827b92e9ba93714"
-        },
-        "67fc24d3b827b92e9ba93715": {
-          "type": "goToNode",
-          "data": {
-            "name": "",
-            "nodeID": "67f6c5d9fde8373142ce08d0",
-            "diagramID": "67f3e5ba4b59bdae787d2b25",
-            "portsV2": {
-              "byKey": {},
-              "builtIn": {},
-              "dynamic": []
-            }
-          },
-          "nodeID": "67fc24d3b827b92e9ba93715"
         },
         "67ea5ea0367fef7521841afb": {
           "type": "buttons-v2",
@@ -20122,90 +20186,6 @@
           "coords": [
             659.2488180680255,
             -30.42548485098157
-          ]
-        },
-        "6819202690064aebf1d488f1": {
-          "type": "goTo",
-          "data": {
-            "name": "",
-            "intent": "67fcf4effbe90ab1a86a929f",
-            "diagramID": "67fcf484f02193ddeaa09a61",
-            "portsV2": {
-              "byKey": {},
-              "builtIn": {},
-              "dynamic": []
-            }
-          },
-          "nodeID": "6819202690064aebf1d488f1"
-        },
-        "6819202690064aebf1d488f2": {
-          "type": "actions",
-          "data": {
-            "name": "",
-            "steps": [
-              "6819202690064aebf1d488f1"
-            ]
-          },
-          "nodeID": "6819202690064aebf1d488f2",
-          "coords": [
-            0,
-            0
-          ]
-        },
-        "6819203c90064aebf1d488f8": {
-          "type": "goTo",
-          "data": {
-            "name": "",
-            "intent": "67fcf4effbe90ab1a86a929f",
-            "diagramID": "67fcf484f02193ddeaa09a61",
-            "portsV2": {
-              "byKey": {},
-              "builtIn": {},
-              "dynamic": []
-            }
-          },
-          "nodeID": "6819203c90064aebf1d488f8"
-        },
-        "6819203c90064aebf1d488f9": {
-          "type": "actions",
-          "data": {
-            "name": "",
-            "steps": [
-              "6819203c90064aebf1d488f8"
-            ]
-          },
-          "nodeID": "6819203c90064aebf1d488f9",
-          "coords": [
-            0,
-            0
-          ]
-        },
-        "6819204690064aebf1d488ff": {
-          "type": "goTo",
-          "data": {
-            "name": "",
-            "intent": "67fcf4effbe90ab1a86a929f",
-            "diagramID": "67fcf484f02193ddeaa09a61",
-            "portsV2": {
-              "byKey": {},
-              "builtIn": {},
-              "dynamic": []
-            }
-          },
-          "nodeID": "6819204690064aebf1d488ff"
-        },
-        "6819204690064aebf1d48900": {
-          "type": "actions",
-          "data": {
-            "name": "",
-            "steps": [
-              "6819204690064aebf1d488ff"
-            ]
-          },
-          "nodeID": "6819204690064aebf1d48900",
-          "coords": [
-            0,
-            0
           ]
         },
         "67fc24c8b827b92e9ba936cb": {
@@ -20387,158 +20367,6 @@
             0,
             0
           ]
-        },
-        "681924c6b0cd7fa46c7ac51c": {
-          "type": "actions",
-          "data": {
-            "name": "",
-            "steps": [
-              "681924c6b0cd7fa46c7ac528"
-            ]
-          },
-          "nodeID": "681924c6b0cd7fa46c7ac51c",
-          "coords": [
-            70.72260439661386,
-            -170.77739008351915
-          ]
-        },
-        "681924c6b0cd7fa46c7ac51e": {
-          "type": "actions",
-          "data": {
-            "name": "",
-            "steps": [
-              "681924c6b0cd7fa46c7ac529"
-            ]
-          },
-          "nodeID": "681924c6b0cd7fa46c7ac51e",
-          "coords": [
-            70.72260439661386,
-            -170.77739008351915
-          ]
-        },
-        "681924c6b0cd7fa46c7ac520": {
-          "type": "actions",
-          "data": {
-            "name": "",
-            "steps": [
-              "681924c6b0cd7fa46c7ac52a"
-            ]
-          },
-          "nodeID": "681924c6b0cd7fa46c7ac520",
-          "coords": [
-            70.72260439661386,
-            -170.77739008351915
-          ]
-        },
-        "681924c6b0cd7fa46c7ac522": {
-          "type": "buttons-v2",
-          "data": {
-            "name": "Buttons",
-            "items": [
-              {
-                "id": "cm8wysyqk073i3d6xq74xej4y",
-                "label": [
-                  {
-                    "text": [
-                      "Ich habe eine spezifische Frage zum Model X"
-                    ]
-                  }
-                ]
-              },
-              {
-                "id": "cm8wyu6gn07523d6xr5m4u3hq",
-                "label": [
-                  {
-                    "text": [
-                      "Probefahrt vereinbaren"
-                    ]
-                  }
-                ]
-              },
-              {
-                "id": "cm9abj64301n43d6y0jhyicpy",
-                "label": [
-                  {
-                    "text": [
-                      "Ich möchte mein passendes Modell kaufen"
-                    ]
-                  }
-                ]
-              }
-            ],
-            "listenForOtherTriggers": true,
-            "portsV2": {
-              "byKey": {
-                "cm8wyu6gn07523d6xr5m4u3hq": {
-                  "type": "",
-                  "target": "681924c6b0cd7fa46c7ac51c",
-                  "id": "681924c6b0cd7fa46c7ac523",
-                  "data": {}
-                },
-                "cm8wysyqk073i3d6xq74xej4y": {
-                  "type": "",
-                  "target": "681924c6b0cd7fa46c7ac51e",
-                  "id": "681924c6b0cd7fa46c7ac524",
-                  "data": {}
-                },
-                "cm9abj64301n43d6y0jhyicpy": {
-                  "type": "",
-                  "target": "681924c6b0cd7fa46c7ac520",
-                  "id": "681924c6b0cd7fa46c7ac525",
-                  "data": {}
-                }
-              },
-              "builtIn": {},
-              "dynamic": []
-            }
-          },
-          "nodeID": "681924c6b0cd7fa46c7ac522",
-          "coords": [
-            0,
-            0
-          ]
-        },
-        "681924c6b0cd7fa46c7ac528": {
-          "type": "goToNode",
-          "data": {
-            "name": "",
-            "nodeID": "67f7960aace54362e7f8c6a3",
-            "diagramID": "67f3c84f0df030fe0a56f88d",
-            "portsV2": {
-              "byKey": {},
-              "builtIn": {},
-              "dynamic": []
-            }
-          },
-          "nodeID": "681924c6b0cd7fa46c7ac528"
-        },
-        "681924c6b0cd7fa46c7ac529": {
-          "type": "goTo",
-          "data": {
-            "name": "",
-            "intent": "67fcf4effbe90ab1a86a929f",
-            "diagramID": "67fcf484f02193ddeaa09a61",
-            "portsV2": {
-              "byKey": {},
-              "builtIn": {},
-              "dynamic": []
-            }
-          },
-          "nodeID": "681924c6b0cd7fa46c7ac529"
-        },
-        "681924c6b0cd7fa46c7ac52a": {
-          "type": "goToNode",
-          "data": {
-            "name": "",
-            "nodeID": "67f6c5d9fde8373142ce08d0",
-            "diagramID": "67f3e5ba4b59bdae787d2b25",
-            "portsV2": {
-              "byKey": {},
-              "builtIn": {},
-              "dynamic": []
-            }
-          },
-          "nodeID": "681924c6b0cd7fa46c7ac52a"
         },
         "681926d4b0cd7fa46c7ac5a6": {
           "type": "message",
@@ -20991,6 +20819,630 @@
             }
           },
           "nodeID": "682204c8701c284d7cb87cb1"
+        },
+        "681924c6b0cd7fa46c7ac51c": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "681924c6b0cd7fa46c7ac528"
+            ]
+          },
+          "nodeID": "681924c6b0cd7fa46c7ac51c",
+          "coords": [
+            70.72260439661386,
+            -170.77739008351915
+          ]
+        },
+        "681924c6b0cd7fa46c7ac51e": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "681924c6b0cd7fa46c7ac529"
+            ]
+          },
+          "nodeID": "681924c6b0cd7fa46c7ac51e",
+          "coords": [
+            70.72260439661386,
+            -170.77739008351915
+          ]
+        },
+        "681924c6b0cd7fa46c7ac520": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "681924c6b0cd7fa46c7ac52a"
+            ]
+          },
+          "nodeID": "681924c6b0cd7fa46c7ac520",
+          "coords": [
+            70.72260439661386,
+            -170.77739008351915
+          ]
+        },
+        "681924c6b0cd7fa46c7ac522": {
+          "type": "buttons-v2",
+          "data": {
+            "name": "Buttons",
+            "items": [
+              {
+                "id": "cm8wysyqk073i3d6xq74xej4y",
+                "label": [
+                  {
+                    "text": [
+                      "Ich habe eine spezifische Frage zum Model X"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "cm8wyu6gn07523d6xr5m4u3hq",
+                "label": [
+                  {
+                    "text": [
+                      "Probefahrt vereinbaren"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "cm9abj64301n43d6y0jhyicpy",
+                "label": [
+                  {
+                    "text": [
+                      "Ich möchte mein passendes Modell kaufen"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "listenForOtherTriggers": false,
+            "portsV2": {
+              "byKey": {
+                "cm8wyu6gn07523d6xr5m4u3hq": {
+                  "type": "",
+                  "target": "681924c6b0cd7fa46c7ac51c",
+                  "id": "681924c6b0cd7fa46c7ac523",
+                  "data": {}
+                },
+                "cm8wysyqk073i3d6xq74xej4y": {
+                  "type": "",
+                  "target": "681924c6b0cd7fa46c7ac51e",
+                  "id": "681924c6b0cd7fa46c7ac524",
+                  "data": {}
+                },
+                "cm9abj64301n43d6y0jhyicpy": {
+                  "type": "",
+                  "target": "681924c6b0cd7fa46c7ac520",
+                  "id": "681924c6b0cd7fa46c7ac525",
+                  "data": {}
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "681924c6b0cd7fa46c7ac522"
+        },
+        "681924c6b0cd7fa46c7ac528": {
+          "type": "goToNode",
+          "data": {
+            "name": "",
+            "nodeID": "67f7960aace54362e7f8c6a3",
+            "diagramID": "67f3c84f0df030fe0a56f88d",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "681924c6b0cd7fa46c7ac528"
+        },
+        "681924c6b0cd7fa46c7ac529": {
+          "type": "goTo",
+          "data": {
+            "name": "",
+            "intent": "67fcf4effbe90ab1a86a929f",
+            "diagramID": "67fcf484f02193ddeaa09a61",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "681924c6b0cd7fa46c7ac529"
+        },
+        "681924c6b0cd7fa46c7ac52a": {
+          "type": "goToNode",
+          "data": {
+            "name": "",
+            "nodeID": "67f6c5d9fde8373142ce08d0",
+            "diagramID": "67f3e5ba4b59bdae787d2b25",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "681924c6b0cd7fa46c7ac52a"
+        },
+        "683d78b6f0d1353dad05f0ea": {
+          "type": "buttons-v2",
+          "data": {
+            "name": "Buttons",
+            "items": [
+              {
+                "id": "cmbexj61j01aq3d6y2ga46bae",
+                "label": [
+                  {
+                    "text": [
+                      "Ich habe eine spezifische Frage zum Model X"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "cmbexjoy801eq3d6ymxv6eq5l",
+                "label": [
+                  {
+                    "text": [
+                      "Probefahrt vereinbaren"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "cmbexjtp901gb3d6ywu02lpf2",
+                "label": [
+                  {
+                    "text": [
+                      "Ich möchte das Model X kaufen"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "listenForOtherTriggers": true,
+            "portsV2": {
+              "byKey": {
+                "cmbexj61j01aq3d6y2ga46bae": {
+                  "id": "683d78b7f0d1353dad05f0ed",
+                  "target": "683d78e4f0d1353dad05f0f4",
+                  "type": "",
+                  "data": {}
+                },
+                "cmbexjoy801eq3d6ymxv6eq5l": {
+                  "id": "683d78d0f0d1353dad05f0ef",
+                  "target": "683d78f2f0d1353dad05f0fa",
+                  "type": "",
+                  "data": {}
+                },
+                "cmbexjtp901gb3d6ywu02lpf2": {
+                  "id": "683d78d6f0d1353dad05f0f1",
+                  "target": "683d790bf0d1353dad05f2e8",
+                  "type": "",
+                  "data": {}
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "683d78b6f0d1353dad05f0ea"
+        },
+        "683d78e4f0d1353dad05f0f3": {
+          "type": "goToNode",
+          "data": {
+            "name": "",
+            "nodeID": "67fd524be20fc5586895978f",
+            "diagramID": "67fcf484f02193ddeaa09a61",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "683d78e4f0d1353dad05f0f3"
+        },
+        "683d78e4f0d1353dad05f0f4": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "683d78e4f0d1353dad05f0f3"
+            ]
+          },
+          "nodeID": "683d78e4f0d1353dad05f0f4",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "683d78f2f0d1353dad05f0f9": {
+          "type": "goTo",
+          "data": {
+            "name": "",
+            "intent": "67f79cab2cdeec21050dd11f",
+            "diagramID": "67f3c84f0df030fe0a56f88d",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "683d78f2f0d1353dad05f0f9"
+        },
+        "683d78f2f0d1353dad05f0fa": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "683d78f2f0d1353dad05f0f9"
+            ]
+          },
+          "nodeID": "683d78f2f0d1353dad05f0fa",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "683d790bf0d1353dad05f2e7": {
+          "type": "goTo",
+          "data": {
+            "name": "",
+            "intent": "67f769a795c558b7d60ae0a5",
+            "diagramID": "67f3e5ba4b59bdae787d2b25",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "683d790bf0d1353dad05f2e7"
+        },
+        "683d790bf0d1353dad05f2e8": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "683d790bf0d1353dad05f2e7"
+            ]
+          },
+          "nodeID": "683d790bf0d1353dad05f2e8",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "683d79a9f0d1353dad05f45d": {
+          "type": "goToNode",
+          "data": {
+            "name": "",
+            "nodeID": "67fd524be20fc5586895978f",
+            "diagramID": "67fcf484f02193ddeaa09a61",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "683d79a9f0d1353dad05f45d"
+        },
+        "683d79a9f0d1353dad05f45e": {
+          "type": "actions",
+          "data": {
+            "name": "Actions",
+            "steps": [
+              "683d79a9f0d1353dad05f45d"
+            ]
+          },
+          "nodeID": "683d79a9f0d1353dad05f45e",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "683d79d93af49113c60dc605": {
+          "type": "goToNode",
+          "data": {
+            "name": "",
+            "nodeID": "67fd524be20fc5586895978f",
+            "diagramID": "67fcf484f02193ddeaa09a61",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "683d79d93af49113c60dc605"
+        },
+        "683d79d93af49113c60dc606": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "683d79d93af49113c60dc605"
+            ]
+          },
+          "nodeID": "683d79d93af49113c60dc606",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "683d79e53af49113c60dc60b": {
+          "type": "goTo",
+          "data": {
+            "name": "",
+            "intent": "67f79cab2cdeec21050dd11f",
+            "diagramID": "67f3c84f0df030fe0a56f88d",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "683d79e53af49113c60dc60b"
+        },
+        "683d79e53af49113c60dc60c": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "683d79e53af49113c60dc60b"
+            ]
+          },
+          "nodeID": "683d79e53af49113c60dc60c",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "683d7a303af49113c60dc87e": {
+          "type": "goTo",
+          "data": {
+            "name": "",
+            "intent": "67f79cab2cdeec21050dd11f",
+            "diagramID": "67f3c84f0df030fe0a56f88d",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "683d7a303af49113c60dc87e"
+        },
+        "683d7a303af49113c60dc87f": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "683d7a303af49113c60dc87e"
+            ]
+          },
+          "nodeID": "683d7a303af49113c60dc87f",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "683d7a483af49113c60dc884": {
+          "type": "goTo",
+          "data": {
+            "name": "",
+            "intent": "67f769a795c558b7d60ae0a5",
+            "diagramID": "67f3e5ba4b59bdae787d2b25",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "683d7a483af49113c60dc884"
+        },
+        "683d7a483af49113c60dc885": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "683d7a483af49113c60dc884"
+            ]
+          },
+          "nodeID": "683d7a483af49113c60dc885",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "683d7a5f3af49113c60dc88a": {
+          "type": "goTo",
+          "data": {
+            "name": "",
+            "intent": "67f769a795c558b7d60ae0a5",
+            "diagramID": "67f3e5ba4b59bdae787d2b25",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "683d7a5f3af49113c60dc88a"
+        },
+        "683d7a5f3af49113c60dc88b": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "683d7a5f3af49113c60dc88a"
+            ]
+          },
+          "nodeID": "683d7a5f3af49113c60dc88b",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "683d7a6e3af49113c60dc890": {
+          "type": "goToNode",
+          "data": {
+            "name": "",
+            "nodeID": "67fd524be20fc5586895978f",
+            "diagramID": "67fcf484f02193ddeaa09a61",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "683d7a6e3af49113c60dc890"
+        },
+        "683d7a6e3af49113c60dc891": {
+          "type": "actions",
+          "data": {
+            "name": "Actions",
+            "steps": [
+              "683d7a6e3af49113c60dc890"
+            ]
+          },
+          "nodeID": "683d7a6e3af49113c60dc891",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "683d7a823af49113c60dc89c": {
+          "type": "goTo",
+          "data": {
+            "name": "",
+            "intent": "67f79cab2cdeec21050dd11f",
+            "diagramID": "67f3c84f0df030fe0a56f88d",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "683d7a823af49113c60dc89c"
+        },
+        "683d7a823af49113c60dc89d": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "683d7a823af49113c60dc89c"
+            ]
+          },
+          "nodeID": "683d7a823af49113c60dc89d",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "683d7a8d3af49113c60dc8a2": {
+          "type": "goTo",
+          "data": {
+            "name": "",
+            "intent": "67f769a795c558b7d60ae0a5",
+            "diagramID": "67f3e5ba4b59bdae787d2b25",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "683d7a8d3af49113c60dc8a2"
+        },
+        "683d7a8d3af49113c60dc8a3": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "683d7a8d3af49113c60dc8a2"
+            ]
+          },
+          "nodeID": "683d7a8d3af49113c60dc8a3",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "683d8c92ef02a82577125c74": {
+          "type": "markup_text",
+          "data": {
+            "name": "Block",
+            "scale": 1,
+            "rotate": 0,
+            "content": [
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": "The user can choose if he'd like to answer questions or write what is important to him"
+                  }
+                ]
+              }
+            ],
+            "overrideWidth": 324,
+            "backgroundColor": {
+              "r": 197,
+              "g": 231,
+              "b": 246,
+              "a": 1
+            }
+          },
+          "nodeID": "683d8c92ef02a82577125c74",
+          "coords": [
+            894.0730114093002,
+            153.03250320522346
+          ]
+        },
+        "683d8d1fef02a82577125c76": {
+          "type": "markup_text",
+          "data": {
+            "scale": 1,
+            "rotate": 0,
+            "content": [
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": "Instead of clicking the buttons the user could also "
+                  }
+                ]
+              },
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": "just ask a question here, the main use of the button is, that a customer stays as long"
+                  }
+                ]
+              },
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": "as possible on the bot and so creates the best value for the user"
+                  }
+                ]
+              }
+            ],
+            "overrideWidth": 811,
+            "backgroundColor": {
+              "r": 197,
+              "g": 231,
+              "b": 246,
+              "a": 1
+            },
+            "name": "Block"
+          },
+          "nodeID": "683d8d1fef02a82577125c76",
+          "coords": [
+            6046.737618661027,
+            525.1854129518493
+          ]
         }
       },
       "offsetX": 0,
@@ -21320,6 +21772,36 @@
           "coords": [
             0,
             0
+          ]
+        },
+        "683d8ae5b77c8a7c4d2dce13": {
+          "type": "markup_text",
+          "data": {
+            "scale": 1,
+            "rotate": 0,
+            "content": [
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": "Here it is also possibe to just type in what you'd like to do "
+                  }
+                ]
+              }
+            ],
+            "overrideWidth": 566,
+            "backgroundColor": {
+              "r": 197,
+              "g": 231,
+              "b": 246,
+              "a": 1
+            },
+            "name": "Block"
+          },
+          "nodeID": "683d8ae5b77c8a7c4d2dce13",
+          "coords": [
+            -2911.0755868479005,
+            119.33651863877903
           ]
         }
       },
@@ -34744,21 +35226,7 @@
       "assigneeID": null,
       "description": null,
       "createdAt": "2025-03-17T14:34:07.000Z",
-      "updatedAt": "2025-06-01T07:14:07.000Z",
-      "updatedByID": 1513012
-    },
-    {
-      "id": "67fcf484fbe90ab1a86a9273",
-      "name": "Spezifische Fragen zu Modellen",
-      "createdByID": 1513004,
-      "folderID": null,
-      "status": null,
-      "isStart": false,
-      "diagramID": "67fcf484f02193ddeaa09a61",
-      "assigneeID": 1513004,
-      "description": "",
-      "createdAt": "2025-04-14T11:41:57.000Z",
-      "updatedAt": "2025-06-01T11:12:51.000Z",
+      "updatedAt": "2025-06-02T11:28:54.000Z",
       "updatedByID": 1513004
     },
     {
@@ -34786,7 +35254,7 @@
       "assigneeID": 1512998,
       "description": "",
       "createdAt": "2025-03-24T15:08:12.000Z",
-      "updatedAt": "2025-06-01T09:20:13.000Z",
+      "updatedAt": "2025-06-02T11:39:06.000Z",
       "updatedByID": 1513004
     },
     {
@@ -34800,7 +35268,21 @@
       "assigneeID": 1513004,
       "description": "",
       "createdAt": "2025-04-07T14:48:27.000Z",
-      "updatedAt": "2025-06-01T09:46:45.000Z",
+      "updatedAt": "2025-06-02T11:35:32.000Z",
+      "updatedByID": 1513004
+    },
+    {
+      "id": "67fcf484fbe90ab1a86a9273",
+      "name": "Spezifische Fragen zu Modellen",
+      "createdByID": 1513004,
+      "folderID": null,
+      "status": null,
+      "isStart": false,
+      "diagramID": "67fcf484f02193ddeaa09a61",
+      "assigneeID": 1513004,
+      "description": "",
+      "createdAt": "2025-04-14T11:41:57.000Z",
+      "updatedAt": "2025-06-02T11:41:26.000Z",
       "updatedByID": 1513004
     },
     {
@@ -38301,7 +38783,7 @@
       "aiPlayground": true
     },
     "_id": "67d832de2ec8522960db03a3",
-    "updatedAt": "2025-06-01T11:06:26.396Z",
+    "updatedAt": "2025-06-02T11:28:51.383Z",
     "devVersion": "67d832de2ec8522960db03a4",
     "liveVersion": "67d832de2ec8522960db03a5"
   },
